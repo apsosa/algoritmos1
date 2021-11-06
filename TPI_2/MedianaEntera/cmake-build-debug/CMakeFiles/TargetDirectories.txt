@@ -1,0 +1,3 @@
+C:/Users/Patricio/CLionProjects/MedianaEntera/cmake-build-debug/CMakeFiles/MedianaEntera.dir
+C:/Users/Patricio/CLionProjects/MedianaEntera/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Patricio/CLionProjects/MedianaEntera/cmake-build-debug/CMakeFiles/rebuild_cache.dir

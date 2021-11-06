@@ -1,0 +1,3 @@
+C:/Users/Patricio/CLionProjects/Ctrlf/cmake-build-debug/CMakeFiles/Ctrlf.dir
+C:/Users/Patricio/CLionProjects/Ctrlf/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Patricio/CLionProjects/Ctrlf/cmake-build-debug/CMakeFiles/rebuild_cache.dir

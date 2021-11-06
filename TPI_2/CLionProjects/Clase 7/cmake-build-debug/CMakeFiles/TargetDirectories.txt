@@ -1,0 +1,3 @@
+/home/apsosa/CLionProjects/Clase 7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/apsosa/CLionProjects/Clase 7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/apsosa/CLionProjects/Clase 7/cmake-build-debug/CMakeFiles/Clase_7.dir

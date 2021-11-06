@@ -1,0 +1,3 @@
+C:/Users/Patricio/CLionProjects/Histograma/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Patricio/CLionProjects/Histograma/cmake-build-debug/CMakeFiles/Histograma.dir
+C:/Users/Patricio/CLionProjects/Histograma/cmake-build-debug/CMakeFiles/rebuild_cache.dir

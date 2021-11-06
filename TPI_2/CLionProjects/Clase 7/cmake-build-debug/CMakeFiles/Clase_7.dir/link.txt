@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Clase_7.dir/main.cpp.o  -o Clase_7 

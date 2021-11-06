@@ -1,0 +1,3 @@
+C:/Users/Patricio/CLionProjects/Ejericicio7whille/cmake-build-debug/CMakeFiles/Ejericicio7whille.dir
+C:/Users/Patricio/CLionProjects/Ejericicio7whille/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Patricio/CLionProjects/Ejericicio7whille/cmake-build-debug/CMakeFiles/rebuild_cache.dir

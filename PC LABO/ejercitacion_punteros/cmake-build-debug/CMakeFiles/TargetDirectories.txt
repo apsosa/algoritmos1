@@ -1,0 +1,2 @@
+/home/apsosa/Descargas/ejercitacion_punteros/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/apsosa/Descargas/ejercitacion_punteros/cmake-build-debug/CMakeFiles/edit_cache.dir

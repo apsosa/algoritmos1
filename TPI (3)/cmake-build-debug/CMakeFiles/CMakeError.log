@@ -1,0 +1,35 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/apsosa/Descargas/TPI (3)/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f974/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f974.dir/build.make CMakeFiles/cmTC_8f974.dir/build
+make[1]: se entra en el directorio '/home/apsosa/Descargas/TPI (3)/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f974.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8f974.dir/CheckSymbolExists.c.o   -c "/home/apsosa/Descargas/TPI (3)/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_8f974
+/opt/clion-2017.1.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f974.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8f974.dir/CheckSymbolExists.c.o  -o cmTC_8f974 -rdynamic 
+CMakeFiles/cmTC_8f974.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8f974.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_8f974'
+make[1]: *** [cmTC_8f974] Error 1
+make[1]: se sale del directorio '/home/apsosa/Descargas/TPI (3)/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_8f974/fast'
+make: *** [cmTC_8f974/fast] Error 2
+
+File /home/apsosa/Descargas/TPI (3)/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

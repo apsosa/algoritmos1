@@ -1,0 +1,10 @@
+Ejericio 1 al 3 se deben ejercutar por terminal con un archivo de texto
+Ejercicio 4 arranca como proyecto en Clion
+Ejercicios 6 al 10 faltan versiones con for y recursivas
+Ejercicios 13 y 14 no puedo leer los elementos del archivo text 
+Ejercicio 15 tiene que fallar?
+Ejercicio 16 no funciona, no encuentro error
+Ejercicio 17 no me sale
+Ejercicio 18 no entiendo xq void?
+Ejercicio 19 no se como guardar las variable igual que en 13 y 14
+Ejercicio 20 no entender

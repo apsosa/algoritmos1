@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/src.dir/Algobot.cpp.o CMakeFiles/src.dir/Diccionario.cpp.o CMakeFiles/src.dir/Fecha.cpp.o CMakeFiles/src.dir/Funciones.cpp.o CMakeFiles/src.dir/Periodo.cpp.o  -o src 

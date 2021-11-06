@@ -1,0 +1,3 @@
+SET R0, 0x00
+SET R1, 0xFF
+COM RO, R1

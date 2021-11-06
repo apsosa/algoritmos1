@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/apsosa/Descargas/Taller2-LogicaDigital-Secuenciales/03_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8883f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8883f.dir/build.make CMakeFiles/cmTC_8883f.dir/build
+make[1]: se entra en el directorio '/home/apsosa/Descargas/Taller2-LogicaDigital-Secuenciales/03_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8883f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8883f.dir/CheckSymbolExists.c.o   -c /home/apsosa/Descargas/Taller2-LogicaDigital-Secuenciales/03_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8883f
+/opt/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8883f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8883f.dir/CheckSymbolExists.c.o  -o cmTC_8883f 
+CMakeFiles/cmTC_8883f.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8883f.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_8883f'
+make[1]: *** [cmTC_8883f] Error 1
+make[1]: se sale del directorio '/home/apsosa/Descargas/Taller2-LogicaDigital-Secuenciales/03_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_8883f/fast'
+make: *** [cmTC_8883f/fast] Error 2
+
+File /home/apsosa/Descargas/Taller2-LogicaDigital-Secuenciales/03_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/apsosa/Descargas/Taller2-LogicaDigital-Secuenciales/03_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10019/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10019.dir/build.make CMakeFiles/cmTC_10019.dir/build
+make[1]: se entra en el directorio '/home/apsosa/Descargas/Taller2-LogicaDigital-Secuenciales/03_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10019.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_10019.dir/CheckFunctionExists.c.o   -c /opt/clion-2017.2/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10019
+/opt/clion-2017.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10019.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_10019.dir/CheckFunctionExists.c.o  -o cmTC_10019 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_10019.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_10019'
+make[1]: *** [cmTC_10019] Error 1
+make[1]: se sale del directorio '/home/apsosa/Descargas/Taller2-LogicaDigital-Secuenciales/03_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_10019/fast'
+make: *** [cmTC_10019/fast] Error 2
+
+

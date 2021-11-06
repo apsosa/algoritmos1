@@ -1,0 +1,3 @@
+SET R0, 0x03
+MOV R1, R0
+INV R0
